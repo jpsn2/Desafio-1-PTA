@@ -5,19 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Montserrat';
+            src: url('Montserrat-VariableFont_wght.ttf') format('truetype');
+        }
+    </style>
     <title>Double Dip</title>
 </head>
 <body class="content">
-    <header class="navbar">
+    <header class="navbar">       
         <img src="./assets/Vector.png" alt="logo da Double Dip">
         <div class="search">
             <img src="./assets/magnifyingglass.png" alt="ícone da barra de pesquisa" id="icone">
             <input type="text" id="txtSearch" placeholder="Procure seu sorvete">
-        </div>
+        </div>          
     </header>
-    <section>
-        
+    <section class="container">
+        <div class="picole" id="coluna1">
+            <img src="./assets/Foto (6).png" alt="picolé Tablito ">
+            <h3 id="nomeDoPicole">
+                Picolé Tablito
+            </h3>
+            <p id="descricaoDoPicole">
+                Picolé de chocolate tradicional e branco 106g (R$ 0,05/g)
+            </p>
+            <div class="preco">
+                <p>
+                    R$ 5,00
+                </p>
+            </div>
+        </div>
+        <div class="picole" id="coluna">
+            <img src="./assets/Foto (5).png" alt="picolé de chocolate granulado">
+            <img src="./assets/Foto (4).png" alt="picolé de menta">
+        </div>
+        <div class="picole">
+            <img src="./assets/Foto (3).png" alt="picolé de chocolate">
+            <h3 id="nomeDoPicole">
+                Chica Bon
+            </h3>
+            <p id="descricaoDoPicole">
+                Picolé de chocolate tradicional 53g (R$ 0,05/g)
+            </p>
+            <div class="preco">
+                <p>
+                    R$ 3,50
+                </p>
+            </div>
+        </div>
+        <div class="picole" id="coluna">
+            <img src="./assets/Foto (2).png" alt="picolé de morango">
+            <img src="./assets/Foto.png" alt="picolé dos minions">
+        </div>
     </section>
-    <footer></footer>
+    <footer class="rodaPe">
+        <div class="redeSociais">
+            <div class="linkedin">
+                <img src="./assets/Linkedin.png" alt="icone do linkedin">
+            </div>
+            <div class="face">
+                <img src="./assets/facebook.png" alt="icone do facebook" id="iconeFace">
+            </div>
+            <div class="twitter">
+                <img src="./assets/Twitter.png" alt="icone do Twitter">
+            </div>
+        </div>
+        <div class="logo"></div>
+        <div class="madeWith"></div>
+    </footer>
 </body>
 </html>

@@ -1,32 +1,97 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #E5E5E5;
 }
 
 .navbar{
-    padding-left: 114px;
-    padding-right: 114px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    width: 100%;
+    position: fixed;
+    padding: 40px 114px 40px 114px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFFFFF;
+    opacity: 0.9;
 }
 
 .search{
     display: flex;
     align-items: center;
+    margin-right: 15%;
     width: 450px;
     height: 61px;
     border: 0.5px solid #6060604D;
     border-radius: 8px;
 }
 
+.container{
+    display: flex;
+    margin: 5px 0px 5px 0px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding: 359px 114px 80px 114px;
+}
+
+.preco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 103px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #F9C7BF80;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.picole{
+    margin: 0px 10px 0px 10px;
+    font-family: 'Montserrat';
+}
+
+.rodaPe{
+    display: flex;
+    width: 100%;
+    height: 155.02px;
+    background-color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+}
+
+.redeSociais{
+    display: flex;
+}
+
+#iconeFace{
+    margin: 0px 15px 0px 15px;
+}
+
+#nomeDoPicole{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#descricaoDoPicole{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#coluna{
+    display: flex;
+    flex-direction: column;
+}
+
 #icone{
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 0px 16px 0px 16px;
 }
 
 #txtSearch{
@@ -37,5 +102,5 @@ body {
     font-weight: 400px;
     font-size: 20px;
     line-height: 24px;
-    color:rgba(96, 96, 96, 0.6);
+    color:#606060;
 }
