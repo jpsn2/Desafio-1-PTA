@@ -56,11 +56,11 @@ body {
 
 .rodaPe{
     display: flex;
-    width: 100%;
     height: 155.02px;
     background-color: #F2F2F2;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 114px 0px 114px;
 }
 
 .redeSociais{
